@@ -1,6 +1,8 @@
 my:
   greeting: Hello from service one
 
+server:
+  port: 8191
 
 spring:
   application:

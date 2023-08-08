@@ -11,6 +11,7 @@ spring:
     config:
       server:
         git:
-          uri: file:///D:/BACKUP/gitcode/spring-cloud-config-store
+          default-label: master
+          uri: https://github.com/dearsrini22/spring-cloud-config-store.git
           searchPaths:
            - '*service'

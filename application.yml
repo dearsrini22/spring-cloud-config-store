@@ -2,6 +2,8 @@ service:
   greeting: Hello from service one
 
 spring:
+  application:
+    name: ConfigServer
   cloud:
     config:
       server:

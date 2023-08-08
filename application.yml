@@ -11,7 +11,7 @@ spring:
     config:
       server:
         git:
-          default-label: master
+          default-label: main
           uri: https://github.com/dearsrini22/spring-cloud-config-store.git
           searchPaths:
            - '*service'

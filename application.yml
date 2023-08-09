@@ -1,0 +1,15 @@
+my:
+  greeting: Hello from service one
+
+server:
+  port: 8191
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          default-label: master
+          uri: https://github.com/dearsrini22/spring-cloud-config-store.git
+          searchPaths:
+           - '*service'
